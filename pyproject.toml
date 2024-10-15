@@ -1,0 +1,28 @@
+[project]
+name = "sales_tax_rtrottie"
+version = "0.0.1"
+authors = [
+  { name="Example Author", email="rytr1806@colorado.edu" },
+]
+description = "Quarterly Sales Tax for Colorado"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/rtrottie/co-sales-tax"
+Issues = "https://github.com/rtrottie/co-sales-tax/issues"
+
+[tool.ruff.lint]
+select = ["F", "E", "W", "N", "D", "UP", "PL", "DOC"]
+ignore = []
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.format]
+docstring-code-format = true
